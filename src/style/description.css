@@ -1,0 +1,63 @@
+.main-container{
+    margin: 60px auto;
+    width: 90%;
+    min-height: 700px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.right-sidecontainer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+    
+}
+.right-sidecontainer img{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+}
+.left-sidecontainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 500px;
+    margin: 20px;
+}
+.btn-container{
+    display: flex;
+    padding-bottom: 10px;
+}
+.notActive{
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(37, 37, 37);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+.isactive{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(163, 163, 163);
+    border: 1px solid gray;
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+}
+.main-ingredients{
+    margin-bottom: 20px;
+}
+.ingredients-list{
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.instru h4{
+    font-weight: normal;
+}
