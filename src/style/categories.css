@@ -43,7 +43,6 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-   
 }
 .btn-categories2.active{
     color: blue;
@@ -52,8 +51,6 @@
     text-decoration: none;
     color: rgb(119, 118, 118);
     padding: 15px;
-    
-    
 }
 h5 {
     text-decoration: none;

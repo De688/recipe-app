@@ -15,13 +15,12 @@ function Causine() {
      //   if(check){
      //     setCausine(JSON.parse(check))
      //   }else{
-          
         const response  = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=309d9b1fc50f4ddfa9084987405edea5&number=10&cuisine=${name}`);
         const data =await response.json()
       //  localStorage.setItem(Causine, JSON.stringify(data.recipes))
         setCausine(data.results);
         console.log(data.results)
-      //  }
+      //}
     }
     useEffect(() => {
       console.log(params.type)
